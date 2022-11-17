@@ -13,7 +13,7 @@ function Feedback() {
     }
     return(
         <div className='reviews'>
-            <h1 class="feedback-title">Feedback from out dear clients</h1>
+            <h1 className="feedback-title">Feedback from out dear clients</h1>
             <div className='reviews-wrapper'>
             {reviews.map(( element => {
                 const {id, name, text, showMore} = element;
