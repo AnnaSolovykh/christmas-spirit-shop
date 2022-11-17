@@ -1,38 +1,271 @@
-.App {
+body {
+  background-color: #FFFDE3;
+  margin: 0;
+}
+
+/* HOME */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E64848;
+  font-family: 'Indie Flower', cursive;
+  height: 5vh;
+}
+
+h5 {
+  color: #FFFDE3;
+  font-size: 25px;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #CFE8A9;
+  height: 10vh;
+}
+
+.link {
+  text-decoration: none;
+  font-family: 'Indie Flower', cursive;
+  margin:15px;
+  font-size: 30px;
+  font-weight: 800;
+  color:  #C21010;;
+}
+
+.heading-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.logo {
+  width: 400px;
+  padding: 40px; 
+  
+}
+h1 {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 70px;
+  font-weight: 800;
+  color:  #C21010;
+  margin-left: 40px;
+  padding: 50px; 
+  align-self: center;
   text-align: center;
+  letter-spacing: 0.2em;
+}
+/* Slider */
+
+.slider-wrapper {
+  display: flex;
+  flex: 1;
+  position: absolute;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-image {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 65vh;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn {
+  border: none;
+  background: transparent;
+}
+
+/* ----------- */
+.picture-links {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid #C21010;
+}
+
+.columns-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-title {
+  font-weight: 900;
+  font-size: 25px;
+  color: #3b5d09;;
+  font-family: 'Crafty Girls', cursive;
+}
+
+ul {
+  font-size: 20px;
+  color: #E64848;
+  font-family: 'Indie Flower', cursive;
+}
+
+li {
+  cursor: crosshair;
+}
+
+/* Products */
+
+.buttons-container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #C21010;
+  height: 10vh;
+}
+
+.findItem {
+  background-color: #C21010;
+  border-right: solid 1px #FFFDE3;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  font-family: 'Indie Flower', cursive;
+  color: #CFE8A9;
+  padding: 20px 30px;
+  font-weight: 900;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(207, 232, 169, 0.21);
+
+}
+
+.products-container {
+  width: 200px;
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+
+.product-image {
+  width: 200px;
+  height: 140px;
+}
+
+.text-container {
+  width: 200px;
+  height: 100px;
+}
+
+.product-text {
+  color: #4A7A02;
+  font-family: 'Indie Flower';
+  font-size: 20px;
+  height: 35px;
+}
+
+.product-button {
+  width: 200px;
+  background: rgba(194, 16, 16, 0.05);;
+  color: #253E01;
+  font-family: 'Indie Flower', cursive;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  cursor: crosshair;
+}
+
+/* About  */
+.container-about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about-text {
+  font-family: 'Indie Flower', cursive;
+  color: #C21010;
+  width:70%;
+  text-align: center;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-text {
+  color: #4A7A02;
+  font-family: 'Indie Flower', cursive;
+  width:80%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.icon {
+  width: 40px;
+  cursor: crosshair;
+}
+
+.present {
+  width: 600px;
+}
+
+
+/* reviews */
+
+.feedback-title {
+  font-family: 'Crafty Girls', cursive;
+  color: #FFFDE3;
+  text-align: left;
+  width:50%;
+}
+.reviews {
+  background-image: url(/src/pictures/others/reviewbg.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.reviews-wrapper {
+  display: flex;
+   flex-wrap: wrap;
+   width: 60%;
+}
+.review-container {
+    background-color: #E64848;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+
+}
+
+.review-title {
+  font-family: 'Crafty Girls', cursive;
+  color: #FFFDE3;
+  font-size: 25px;
+}
+
+.review-text {
+  font-family: 'Indie Flower', cursive;
+  color: #CFE8A9;
+  padding:  0 30px;
+  font-size: 20px;
+}
+
+.review-button {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  color: #CFE8A9;
+  font-family: 'Crafty Girls', cursive;
+  cursor: pointer;
 }
