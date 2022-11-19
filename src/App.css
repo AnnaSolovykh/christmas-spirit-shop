@@ -85,6 +85,10 @@ h1 {
   background: transparent;
 }
 
+.img-btn {
+  opacity: 0.5;
+}
+
 /* ----------- */
 .picture-links {
   width: 100%;
@@ -380,6 +384,10 @@ li {
 
   .column-title {
     font-size: 20px;
+  }
+
+  .buttons-container {
+    height: 35vh;
   }
 
 }
