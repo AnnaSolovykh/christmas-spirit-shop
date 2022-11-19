@@ -29,10 +29,14 @@ h5 {
 .link {
   text-decoration: none;
   font-family: 'Indie Flower', cursive;
-  margin:15px;
+  margin: 40px;
   font-size: 30px;
   font-weight: 800;
   color:  #C21010;;
+}
+
+.left-link {
+  margin-left: 90px; 
 }
 
 .heading-wrapper {
@@ -42,20 +46,21 @@ h5 {
 }
 
 .logo {
-  width: 400px;
-  padding: 40px; 
-  
+  width: 250px;
+  margin: 20px 70px; 
 }
+
 h1 {
   font-family: 'Crafty Girls', cursive;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 800;
   color:  #C21010;
-  margin-left: 40px;
-  padding: 50px; 
+  /* margin-left: 40px;
+  padding: 50px;  */
   align-self: center;
   text-align: center;
   letter-spacing: 0.2em;
+  flex: 2;
 }
 /* Slider */
 
@@ -116,7 +121,7 @@ ul {
 }
 
 li {
-  cursor: crosshair;
+  cursor: not-allowed;
 }
 
 /* Products */
@@ -126,6 +131,7 @@ li {
   justify-content: space-between;
   background-color: #C21010;
   height: 10vh;
+  flex-wrap: wrap;
 }
 
 .findItem {
@@ -136,29 +142,28 @@ li {
   border-left: none;
   font-family: 'Indie Flower', cursive;
   color: #CFE8A9;
-  padding: 20px 30px;
   font-weight: 900;
   font-size: 25px;
   cursor: pointer;
+  flex: 5;
 }
 
 .products-wrapper {
   display: flex;
   flex-wrap: wrap;
   background: rgba(207, 232, 169, 0.21);
+  justify-content: space-around;
 
 }
 
 .products-container {
-  width: 200px;
+  width: 300px;
   padding: 2%;
-  flex-grow: 1;
-  flex-basis: 16%;
 }
 
 .product-image {
-  width: 200px;
-  height: 140px;
+  width: 300px;
+  height: 180px;
 }
 
 .text-container {
@@ -181,7 +186,7 @@ li {
   border: none;
   padding: 10px;
   font-size: 15px;
-  cursor: crosshair;
+  cursor: not-allowed;
 }
 
 /* About  */
@@ -209,7 +214,7 @@ li {
 
 .icon {
   width: 40px;
-  cursor: crosshair;
+  cursor: not-allowed;
 }
 
 .present {
@@ -222,8 +227,9 @@ li {
 .feedback-title {
   font-family: 'Crafty Girls', cursive;
   color: #FFFDE3;
-  text-align: left;
+  text-align: center;
   width:50%;
+  padding: 30px;
 }
 .reviews {
   background-image: url(/src/pictures/others/reviewbg.jpg);
@@ -264,7 +270,112 @@ li {
   background: transparent;
   border: none;
   text-decoration: underline;
-  color: #CFE8A9;
-  font-family: 'Crafty Girls', cursive;
+  color: #FFFDE3;
+  font-family: 'Indie Flower', cursive;
   cursor: pointer;
+  font-size: 20px;
+}
+
+
+@media all and (max-width: 850px) {
+
+  .container {
+    height: 3vh;
+  }
+  
+  h5 {
+    font-size: 17px;
+  }
+  .container-menu {
+    height: 6vh;
+  }
+  .link {
+    margin: 20px;
+    font-size: 25px;
+  }
+  .heading-wrapper {
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+  }
+  .left-link {
+    margin-left: 20px; 
+  }
+  .logo {
+    width: 150px;
+  }
+  h1 {
+    font-family: 'Crafty Girls', cursive;
+    font-size: 20px;
+  }
+
+  .bg-image, .picture-links {
+    width: 65%;
+  }
+  
+  .btn-container {
+    height: 15vh;
+    width: 65%;
+  }
+  .img-btn {
+    width: 40px;
+  }
+
+  .columns-wrapper, .container, .container-menu {
+    width: 65%;
+  }
+  .slider-wrapper {
+    width: 100%;
+  }
+
+
+
+  .buttons-container{
+    display: flex;
+    flex-direction: column;
+      width: 65%;
+      height: 30vh;
+  }
+
+  hr {
+    display: none;
+  }
+
+
+  .findItem {
+    border-right: none;
+    border-bottom: solid 1px #FFFDE3;
+  }
+  
+  .products-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+  
+  }
+
+  .container-about {
+    width: 65%;
+  }
+
+  .present {
+    width: 300px;
+  }
+  
+  .reviews {
+    width: 65%;
+  }
+
+  .reviews-wrapper  {
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+  }
+
+}
+
+
+@media all and (max-width: 500px) {
+   
 }

@@ -28,7 +28,7 @@ function App() {
 
     <Router>
       <nav className='container-menu'>
-        <Link to="/" className="link">home</Link>
+        <Link to="/" className="link left-link">home</Link>
         <Link to="/About" className="link">about</Link>
         <Link to="/Shop" className="link">shop</Link>
       </nav>

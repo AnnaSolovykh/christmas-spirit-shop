@@ -13,7 +13,7 @@ function Feedback() {
     }
     return(
         <div className='reviews'>
-            <h1 className="feedback-title">Feedback from out dear clients</h1>
+            <h1 className="feedback-title">Feedback from our dear clients</h1>
             <div className='reviews-wrapper'>
             {reviews.map(( element => {
                 const {id, name, text, showMore} = element;
@@ -21,7 +21,7 @@ function Feedback() {
                 <div className='review-container' key={id}>
                     <p className='review-title'>{name}</p>
                     <p className='review-text'>{showMore ? text : text.substring(0, 80) + "..."}
-                    <button className='review-button' onClick={ () => showTextClick(element) }>{showMore? "Show less" : "Show more"}</button>
+                    <button className='review-button' onClick={ () => showTextClick(element) }>{showMore? "Hide" : "Read more"}</button>
                     </p>
                 </div>
                 )

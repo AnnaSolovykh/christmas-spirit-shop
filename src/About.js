@@ -16,11 +16,11 @@ function About() {
             </div>
 
             <div className='container-about'>
-                <p className='about-text'>“Christmas Spirit” is a newly opened Christmas shop, absolutely unique in its nature, being opened in the heart of Ankara,  the capital of Turkey. <br></br>Seeing the great number of expats and foreign representives living here and missing  Christmas spirit, we realised we could open a shop to meet their needs.<br></br> Our next step is to expand our shop to start offering a fast range of services such as meeting Santa, organizing Santa post and entertaining events for kids to help them feel Christmas coming.</p>
+                <p className='about-text'>“Christmas Spirit” is a newly opened Christmas shop, absolutely unique in its nature, being opened in the heart of Ankara,  the capital of Turkey. <br></br>Seeing the great number of expats and foreign representatives living here and missing Christmas spirit, we realised we could open a shop to meet their needs.<br></br> Our next step is to expand our shop to start offering a fast range of services such as meeting Santa, organizing Santa post and entertaining events for kids to help them feel Christmas coming.</p>
                 </div>
 
             <div className='container-about'>
-                <p className='contact-text'>Do you have any more ideas for  improvement or even cooperation?</p>
+                <p className='contact-text'>Do you have any more ideas for the improvement of our services or even cooperation?</p>
             </div >
 
             <div className='container-about'>

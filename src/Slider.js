@@ -36,8 +36,8 @@ function Slider() {
             
 
                 <div className="btn-container">
-                    <button className="btn" onClick={previousSlide}><img src={leftArrow} alt="left arrow"/></button>
-                    <button className="btn" onClick={nextSlide}><img src={rightArrow} alt="right arrow"/></button>
+                    <button className="btn" onClick={previousSlide}><img className="img-btn" src={leftArrow} alt="left arrow"/></button>
+                    <button className="btn" onClick={nextSlide}><img className="img-btn"  src={rightArrow} alt="right arrow"/></button>
                 </div>
             </div>
         )
