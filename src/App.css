@@ -88,7 +88,7 @@ h1 {
 /* ----------- */
 .picture-links {
   width: 100%;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 hr {
@@ -98,6 +98,7 @@ hr {
 .columns-wrapper {
   display: flex;
   justify-content: space-around;
+  margin: 10px;
 }
 
 .column {
@@ -306,28 +307,21 @@ li {
     font-family: 'Crafty Girls', cursive;
     font-size: 20px;
   }
-
-
   
   .btn-container {
-    height: 15vh;
-
-  }
-  .img-btn {
-    width: 40px;
+    height: 24vh;
   }
 
+ 
   .slider-wrapper {
     width: 100%;
   }
 
 
-
   .buttons-container{
     display: flex;
     flex-direction: column;
-
-      height: 30vh;
+    height: 30vh;
   }
 
   hr {
@@ -343,8 +337,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-  
   }
 
   .present {
@@ -372,9 +364,22 @@ li {
   .about-text, .contact-text  {
     font-size: 20px;
   }
+
+  .img-btn {
+    width: 40px;
+  }
+
   
   .icon {
     width: 15px;
   }
   
+  .btn-container {
+    height: 16vh;
+  }
+
+  .column-title {
+    font-size: 20px;
+  }
+
 }
