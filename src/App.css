@@ -55,8 +55,6 @@ h1 {
   font-size: 50px;
   font-weight: 800;
   color:  #C21010;
-  /* margin-left: 40px;
-  padding: 50px;  */
   align-self: center;
   text-align: center;
   letter-spacing: 0.2em;
@@ -213,7 +211,7 @@ li {
 }
 
 .icon {
-  width: 40px;
+  width: 30px;
   cursor: not-allowed;
 }
 
@@ -296,7 +294,7 @@ li {
   .heading-wrapper {
     flex-direction: column;
     align-items: center;
-    width: 65%;
+
   }
   .left-link {
     margin-left: 20px; 
@@ -309,21 +307,16 @@ li {
     font-size: 20px;
   }
 
-  .bg-image, .picture-links {
-    width: 65%;
-  }
+
   
   .btn-container {
     height: 15vh;
-    width: 65%;
+
   }
   .img-btn {
     width: 40px;
   }
 
-  .columns-wrapper, .container, .container-menu {
-    width: 65%;
-  }
   .slider-wrapper {
     width: 100%;
   }
@@ -333,14 +326,13 @@ li {
   .buttons-container{
     display: flex;
     flex-direction: column;
-      width: 65%;
+
       height: 30vh;
   }
 
   hr {
     display: none;
   }
-
 
   .findItem {
     border-right: none;
@@ -351,31 +343,38 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 65%;
-  
-  }
 
-  .container-about {
-    width: 65%;
+  
   }
 
   .present {
-    width: 300px;
-  }
-  
-  .reviews {
-    width: 65%;
+    width: 350px;
   }
 
   .reviews-wrapper  {
     flex-direction: column;
     align-items: center;
-    width: 65%;
+
   }
 
 }
 
 
 @media all and (max-width: 500px) {
-   
+  .container {
+    height: 5vh;
+    
+  }
+  
+  h5 {
+    font-size: 13px;
+  }
+  .about-text, .contact-text  {
+    font-size: 20px;
+  }
+  
+  .icon {
+    width: 15px;
+  }
+  
 }
